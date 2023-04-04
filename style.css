@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: lightgreen;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #000000ad;
+    opacity: 50%;
+}
+
+header .row {
+    width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.row p {
+    font-family: "Lato", sans-serif;
+    line-height: 25px;
+}
+section .row {
+    width: 1180px;
+    margin: 0 auto;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row a {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+.row h2 {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 3.5rem;
+}
+.nav-left a {
+    font-size: 19px;
+    color: #ffffff;
+}
+.nav-right a {
+    font-size: 13px;
+    color: #ffffff8c;
+    margin-right: 8px;
+}
+.Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #ff6a00;
+    text-align: center;
+    height: 95vh;
+}
+.one-page a {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+}
+.one-page h1{
+    font-family: "Catamaran", sans-serif;
+    font-size: 96px;
+    color: white; 
+}
+.one-page h2{
+    font-family: "Catamaran", sans-serif;
+    color: #ffffff;
+    font-size: 64px;
+}
+.one-page button {
+    width: 14rem;
+    padding: 1.5rem 3rem;
+    border-radius: 32px;
+    border: #ee0979;
+    background-color: #ee0979;
+}
+section .col-6 {
+    width: 100%;
+    padding: 0rem 2rem;
+}
+.right-side {
+    padding: 0px 0px 0px 35px;
+}
+img {
+    width: 100%;
+    background-size: cover;
+    border-radius: 50%;
+}
+footer{
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+footer p{
+    font-size: 14px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding-top: 2rem;
+}
